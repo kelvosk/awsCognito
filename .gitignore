@@ -26,4 +26,4 @@ replay_pid*
 .idea
 .mvn
 .target
-src/main/resources/application.yml
+src/main/resources/*.yml
