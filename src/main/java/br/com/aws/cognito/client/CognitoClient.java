@@ -71,7 +71,7 @@ public class CognitoClient {
             client.close();
         } catch (CognitoIdentityProviderException e) {
             System.err.println(e.awsErrorDetails().errorMessage());
-            LOGGER.error(e.getMessage());
+            LOGGER.info("L=E C=CognitoClient M=signUp M={}", e.getMessage());
         }
 
     }
